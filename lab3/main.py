@@ -1,3 +1,4 @@
+import torch
 from torch.utils.data import DataLoader
 
 from lab3.Imdb_data import ImdbData, process_texts, build_vocabulary, vectorize_texts
